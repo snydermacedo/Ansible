@@ -1,0 +1,5 @@
+# Nas buscas pela internet achei essa solução
+
+*/15 * * * *    if ! out=`ansible-playbook yourplaybook.yaml`; then echo $out; fi
+
+# Em 'yourplaybook.yaml' informe o caminho do seu playbook.
